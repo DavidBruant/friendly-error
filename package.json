@@ -1,0 +1,23 @@
+{
+  "name": "@davidbruant/friendly-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node -r ./main.js test/errors.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBruant/friendly-error.git"
+  },
+  "keywords": [],
+  "author": "David Bruant <bruant.d@gmail.com> (https://twitter.com/DavidBruant)",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/DavidBruant/friendly-error/issues"
+  },
+  "homepage": "https://github.com/DavidBruant/friendly-error#readme",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  }
+}
