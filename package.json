@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "node test/base.js && node test/TypeError-cannot-read-property.js"
+    "test": "node test/base.js && node test/TypeError-cannot-read-property.js && node test/TypeError-non-callable.js"
   },
   "repository": {
     "type": "git",
@@ -12,13 +12,13 @@
   },
   "keywords": [],
   "author": "David Bruant <bruant.d@gmail.com> (https://twitter.com/DavidBruant)",
-  "license": "CC0",
+  "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/DavidBruant/friendly-error/issues"
   },
   "homepage": "https://github.com/DavidBruant/friendly-error#readme",
   "dependencies": {
-    "chalk": "^2.3.0",
+    "chalk": "^2.3.2",
     "error-stack-parser": "^2.0.1",
     "terminal-link": "^1.0.0"
   }
