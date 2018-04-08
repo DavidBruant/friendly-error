@@ -1,3 +1,5 @@
+require('../main.js')
+
 function sync(){
     throw new Error('Error message sync whaddup');
 }

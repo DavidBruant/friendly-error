@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "node -r ./main.js test/errors.js"
+    "test": "node test/base.js && node test/TypeError-cannot-read-property.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/DavidBruant/friendly-error#readme",
   "dependencies": {
-    "chalk": "^2.3.0"
+    "chalk": "^2.3.0",
+    "error-stack-parser": "^2.0.1",
+    "terminal-link": "^1.0.0"
   }
 }
